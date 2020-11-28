@@ -1,0 +1,55 @@
+.personal-info-container {
+    width: 395px;
+}
+
+.name {
+   @include md-font;
+    color: #4F4F4F;
+    padding-bottom: 6px;
+}
+
+.job {
+   @include sm-font;
+    color: #828282;
+}
+
+.name-job {
+    padding-bottom: 31px;
+    padding-top: 22px;
+}
+
+.email {
+    @include sm-font;
+    color: #4F4F4F;
+    padding-bottom: 10px;
+}
+
+.pnone-number {
+    @include sm-font;
+    color: #4F4F4F;
+}
+
+.email-phone {
+    padding-bottom: 34px;
+}
+
+.description {
+    @include sm-font;
+    color: #828282;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 1000px) {
+    .personal-info-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 1000px;
+        height: 311px;
+    }
+    img {
+        grid-columns: 1 / 2;
+    }
+    .personal-info {
+        grid-columns: 2 / 4;
+    }
+}
