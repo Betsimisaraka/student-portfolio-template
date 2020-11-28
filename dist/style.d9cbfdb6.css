@@ -74,16 +74,24 @@ img {
   font-size: 18px;
   line-height: 22px;
   color: #4F4F4F;
+  padding-left: 3rem;
   padding-bottom: 10px;
+  background-image: url("/email.c0cc18c3.svg");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
 }
 
-.pnone-number {
+.phone-number {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
   color: #4F4F4F;
+  padding-left: 3rem;
+  background-image: url("/call.88be7624.svg");
+  background-repeat: no-repeat;
+  background-position: center left;
 }
 
 .email-phone {

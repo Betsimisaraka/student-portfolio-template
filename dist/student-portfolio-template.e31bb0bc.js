@@ -29804,13 +29804,13 @@ function About() {
     className: "name"
   }, "Anita Rasoa"), /*#__PURE__*/_react.default.createElement("p", {
     className: "job"
-  }, "Font-end Developer")), /*#__PURE__*/_react.default.createElement("div", {
+  }, "Front-end Developer")), /*#__PURE__*/_react.default.createElement("div", {
     className: "email-phone"
   }, /*#__PURE__*/_react.default.createElement("p", {
     className: "email"
-  }, "\u2709 anita.ras@onja.org"), /*#__PURE__*/_react.default.createElement("p", {
+  }, " anita.ras@onja.org"), /*#__PURE__*/_react.default.createElement("p", {
     className: "phone-number"
-  }, "\uD83D\uDCDE (+261)34 52 910 94"))), /*#__PURE__*/_react.default.createElement("div", {
+  }, " (+261)34 52 910 94"))), /*#__PURE__*/_react.default.createElement("div", {
     className: "desc"
   }, /*#__PURE__*/_react.default.createElement("p", {
     className: "description"
@@ -29859,6 +29859,24 @@ function FrontEnd() {
 
 var _default = FrontEnd;
 exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"component/Experiences.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Experiences() {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h2", null, "My Experiences"));
+}
+
+var _default = Experiences;
+exports.default = _default;
 },{"react":"node_modules/react/index.js"}],"App.js":[function(require,module,exports) {
 "use strict";
 
@@ -29873,17 +29891,19 @@ var _About = _interopRequireDefault(require("./component/About"));
 
 var _FrontEnd = _interopRequireDefault(require("./component/FrontEnd"));
 
+var _Experiences = _interopRequireDefault(require("./component/Experiences"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "container"
-  }, /*#__PURE__*/_react.default.createElement(_About.default, null), /*#__PURE__*/_react.default.createElement(_FrontEnd.default, null));
+  }, /*#__PURE__*/_react.default.createElement(_About.default, null), /*#__PURE__*/_react.default.createElement(_FrontEnd.default, null), /*#__PURE__*/_react.default.createElement(_Experiences.default, null));
 }
 
 var _default = App;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./component/About":"component/About.js","./component/FrontEnd":"component/FrontEnd.js"}],"index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./component/About":"component/About.js","./component/FrontEnd":"component/FrontEnd.js","./component/Experiences":"component/Experiences.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));

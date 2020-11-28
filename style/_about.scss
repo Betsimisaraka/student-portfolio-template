@@ -30,12 +30,20 @@ img {
 .email {
     @include sm-font;
     color: #4F4F4F;
+    padding-left: 3rem;
     padding-bottom: 10px;
+    background-image: url('../assets/email.svg');
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
 }
 
-.pnone-number {
+.phone-number {
     @include sm-font;
     color: #4F4F4F;
+    padding-left: 3rem;
+    background-image: url('../assets/call.svg');
+    background-repeat: no-repeat;
+    background-position: center left;
 }
 
 .email-phone {
