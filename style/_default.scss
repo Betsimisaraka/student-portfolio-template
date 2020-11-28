@@ -28,6 +28,10 @@ ul {
     padding: 0;
 }
 
+button {
+    cursor: pointer;
+}
+
 @media (min-width: 1000px) {
     .container {
         max-width: 1000px;

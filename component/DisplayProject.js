@@ -1,13 +1,10 @@
-import React, { useEffect, useState } from 'react';
-import ProjectData from '../component/Project';
+import React, { useContext } from 'react';
+import { Context } from '../Context'
 
 function DisplayProject() {
-    const [projects, setProjects] = useState([]);
+    const { projects} = useContext(Context);
     console.log(projects);
 
-    useEffect(() => {
-        setProjects(ProjectData);
-    }, [])
 
     const myProjects = projects.map((project, index) => (
         <li className="lists-item" key={index}>
@@ -24,7 +21,6 @@ function DisplayProject() {
 
     return (
         <div>
-            <h2>My project</h2>
             <ul className="lists-container">    
                 {myProjects}
             </ul>

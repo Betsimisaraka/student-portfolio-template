@@ -28,6 +28,10 @@ ul {
   padding: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 @media (min-width: 1000px) {
   .container {
     max-width: 1000px;
@@ -195,6 +199,59 @@ fieldset progress {
 
   fieldset label {
     padding-right: 2rem;
+  }
+}
+.projects-container {
+  background-color: white;
+  padding: 22px;
+  margin-bottom: 36px;
+  margin-top: 42px;
+  border-radius: 12px;
+  width: 100%;
+}
+.projects-container .project-heading {
+  color: #4F4F4F;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  padding-bottom: 16px;
+}
+.projects-container .projects-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.projects-container .projects-btns .responsive-btn, .projects-container .projects-btns .react-btn, .projects-container .projects-btns .sass-btn {
+  border-radius: 12px;
+  border: none;
+  padding: 18px 22px;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
+.projects-container .projects-btns .react-btn, .projects-container .projects-btns .sass-btn {
+  color: #4F4F4F;
+  border: 1px solid #4F4F4F;
+  background-color: white;
+}
+.projects-container .projects-btns .responsive-btn {
+  color: #FFFFFF;
+  background: #6AA2EF;
+  border: 1px solid #6AA2EF;
+}
+
+@media (min-width: 1000px) {
+  .projects-container .projects-btns {
+    justify-content: unset;
+  }
+  .projects-container .projects-btns button + button {
+    margin-left: 16px;
   }
 }
 .lists-container {
