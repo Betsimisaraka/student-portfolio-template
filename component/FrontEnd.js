@@ -18,7 +18,7 @@ function FrontEnd() {
                 <div>    
                     <fieldset>    
                         <label>Javascript</label>
-                        <progress id="file" value="75" max="100"> 75% </progress>
+                        <progress id="file" value="75" max="100"> 60% </progress>
                     </fieldset>
                     <fieldset>    
                         <label>React</label>

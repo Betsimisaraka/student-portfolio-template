@@ -3,6 +3,7 @@
     margin-top: 42px;
     padding: 24px;
     border-radius: 12px;
+    margin-bottom: 48px;
 }
 
 .front-end-heading {
@@ -34,16 +35,9 @@ fieldset {
 @media (min-width: 1000px)  {
     .front-end-container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
-    }
-    .front-end {
-        width: 100%;
-    }
-    fieldset progress {
-        width: 348px;
-    }
-
+    }     
     fieldset label {
         padding-right: 2rem;
     }

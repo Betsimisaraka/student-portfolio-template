@@ -33,13 +33,17 @@
 .title {
     color: #333333;
     @include md-font;
+    padding-top: 22px;
 }
 
 .buttons {
     padding-bottom: 15px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+}
+
+.buttons button + button {
+ margin-left: 11px;
 }
 
 .demo {
@@ -71,11 +75,14 @@
 
 @media (min-width: 1000px) {
     .lists-container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        & li + li {
-            margin-top: unset;
-            margin-left: 30px;
+        & li {
+            display: flex;
+            flex-direction: row;
         }
+    }
+    .lists-container li img {
+        width: 30%;
+        height: 30vh;
+        margin-right: 34px;
     }
 }

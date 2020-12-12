@@ -4,11 +4,9 @@
     margin-bottom: 36px;
     margin-top: 42px;
     border-radius: 12px;
-    width: 100%;
     & .project-heading {
         color: #4F4F4F;
         @include sm-font;
-        padding-bottom: 16px;
     }
     & .projects-btns {
         display: flex;
@@ -41,6 +39,7 @@
 
 @media (min-width: 1000px) {
     .projects-container {
+        margin-top: unset;
         & .projects-btns {
             justify-content: unset;
         }

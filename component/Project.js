@@ -1,30 +1,30 @@
-import gamePage from '../assets/game-landing-sm.png';
 import photograf from '../assets/photograf.png';
-import randomQuotes from '../assets/random-quote.png';
+import birthdayApp from '../assets/birthday-app-sm.webp';
+import countryQuiz from '../assets/right-answer-sm.webp';
 
 const projects =[
-    {
-        "title": "Game landing page",
-        "description": "It is a website about a main character of a movie",
-        "photo": gamePage,
-        "demo": "https://betsimisaraka.github.io/game-landing-page/",
-        "code": "https://github.com/Betsimisaraka/game-landing-page",
-        "type": "sass"
-    },
     {
         "title": "Photograph",
         "description": "A website about a quality of many kind of photos",
         "photo": photograf,
-        "demo": " https://betsimisaraka.github.io/front-end-finals/",
-        "code": "https://github.com/Betsimisaraka/front-end-finals",
+        "solution": " https://betsimisaraka.github.io/front-end-finals/",
+        "demo": "https://github.com/Betsimisaraka/front-end-finals",
         "type": "responsive"
     },
     {
-        "title": "Random Quotes",
-        "description": "Fetching quotes from an API, display randomly.",
-        "photo": randomQuotes,
-        "demo": "https://react-random-quote-generator-router.netlify.app/",
-        "code": "https://github.com/Betsimisaraka/react-random-quote-generator",
+        "title": "Birthday app",
+        "description": "Showing lists of people with their birth date sorted be the sooner birthday this year",
+        "photo": birthdayApp,
+        "solution": "https://birthday-app-anita.netlify.app/",
+        "demo": "https://github.com/Betsimisaraka/birthday-app",
+        "type": "Vanila"
+    },
+    {
+        "title": "Coutry Quiz",
+        "description": "Fetching coutry from an API and displaying the quiz randomly two question",
+        "photo": countryQuiz,
+        "solution": "https://country-quiz-betsimisaraka.netlify.app/",
+        "demo": "https://github.com/Betsimisaraka/country-quiz",
         "type": "react",
     }
 ]
